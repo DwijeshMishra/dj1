@@ -1,6 +1,5 @@
 #!/bin/bash
-# FB by: https://www.youtube.com/c/HA-MRX
-# Instagram: @iemprator_ha_mrx
+
 
 trap 'store;exit 1' 2
 string4=$(openssl rand -hex 32 | cut -c 1-4)
